@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="160dp"
+    android:id="@+id/taskLayout"
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#9d9999"
+        android:paddingBottom="2dp"
+        android:paddingRight="2dp">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/orderNowImage"
+            android:src="@drawable/order_now"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Medium Text"
+            android:id="@+id/orderNowText"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#50ffffff"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#9d9999"
+        android:paddingRight="2dp"
+        android:paddingBottom="2dp">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/bookTableImage"
+            android:src="@drawable/book_table"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Medium Text"
+            android:id="@+id/bookTableText"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#50ffffff"
+            android:gravity="center"
+            android:textStyle="bold" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="url_name">
+        <item>Item1</item>
+        <item>Item2</item>
+        <item>Item3</item>
+        <item>Item4</item>
+    </string-array>
+    <string-array name="url_array">
+        <item>http://edmullen.net/test/rc.jpg</item>
+        <item>http://patrickcoombe.com/wp-content/uploads/2015/09/new-google-logo-2015.png</item>
+        <item>https://www.seeklogo.net/wp-content/uploads/2015/08/picasa-logo-vector-download.jpg</item>
+        <item>https://www.seeklogo.net/wp-content/uploads/2015/09/spotify-logo-vector-download.jpg</item>
+    </string-array>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="corner_radius">15dp</dimen>
+    <dimen name="corner_radius_small">6dp</dimen>
+    <dimen name="text_size_small">15sp</dimen>
+    <dimen name="small_image_size">34dp</dimen>
+    <dimen name="category_item_height">40dp</dimen>
+    <dimen name="text_size_large">25sp</dimen>
+    <dimen name="inside_margin_vertical">2dp</dimen>
+    <dimen name="inside_margin_horizontal">10dp</dimen>
+    <dimen name="section_margin_vertical">7dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="item_height">160dp</dimen>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/restaurantFrameLayout"
+    android:background="#9d9999">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/restaurantImage"
+        android:layout_gravity="center"
+        android:src="@drawable/individual_restaurant_image"
+        android:background="#9d9999"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="3.7 km"
+        android:id="@+id/restaurantDistance"
+        android:layout_gravity="right|bottom"
+        android:gravity="center"
+        android:foregroundGravity="top"
+        android:padding="2dp"
+        android:background="@android:color/transparent"
+        android:textColor="#ededed" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="3.4"
+        android:id="@+id/restaurantRating"
+        android:layout_gravity="right|top"
+        android:background="#ff4d00"
+        android:gravity="center"
+        android:foregroundGravity="top"
+        android:padding="2dp"
+        android:textColor="#ededed" />
+
+</FrameLayout>

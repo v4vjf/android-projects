@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9d9999">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Plan Your Meal"
+        android:id="@+id/categorySectionHeader"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="#93ff7b00"
+        android:gravity="center" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="2"
+        android:rowCount="4"
+        android:layout_weight="15"
+        android:id="@+id/categoryGridView"
+        android:background="#ffffff"></GridLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="View All"
+        android:id="@+id/viewAllText"
+        android:layout_weight="1"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:background="#93ff7b00" />
+</LinearLayout>
